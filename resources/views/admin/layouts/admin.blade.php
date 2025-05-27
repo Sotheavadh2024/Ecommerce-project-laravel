@@ -6,7 +6,6 @@
 <body>
     <div class="wrapper">
         @include("admin.includes.sidebar")
-
         <div class="main">
             @include("admin.includes.header")
             @yield("content")
