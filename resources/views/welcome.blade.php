@@ -20,15 +20,13 @@
                         <img src="images/shop/product12.jpg" alt="" />
                         <h2>${{ $product->price }}</h2>
                         <p>{{ $product->name }}</p>
-                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to
-                            cart</a>
+                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                     </div>
                     <div class="product-overlay">
                         <div class="overlay-content">
                             <h2>${{ $product->price }}</h2>
                             <p>{{ $product->name }}</p>
-                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to
-                                cart</a>
+                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -50,8 +48,7 @@
         <div class="col-sm-12">
             <ul class="nav nav-tabs">
                 @foreach($categories as $index => $category)
-                <li class="{{ $index == 0 ? 'active' : '' }}"><a href="#category{{ $category->id }}"
-                        data-toggle="tab">{{ $category->name }}</a></li>
+                <li class="{{ $index == 0 ? 'active' : '' }}"><a href="#category{{ $category->id }}" data-toggle="tab">{{ $category->name }}</a></li>
                 @endforeach
             </ul>
         </div>
@@ -65,8 +62,7 @@
                                 <img src="images/home/gallery1.jpg" alt="" />
                                 <h2>$56</h2>
                                 <p>{{ $category->name }} Product</p>
-                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
-                                    to cart</a>
+                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                             </div>
                         </div>
                     </div>
@@ -91,8 +87,7 @@
                                     <img src="images/home/recommend1.jpg" alt="" />
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i
-                                            class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -104,8 +99,7 @@
                                     <img src="images/home/recommend2.jpg" alt="" />
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i
-                                            class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -117,8 +111,7 @@
                                     <img src="images/home/recommend3.jpg" alt="" />
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i
-                                            class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -132,8 +125,7 @@
                                     <img src="images/home/recommend1.jpg" alt="" />
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i
-                                            class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -145,8 +137,7 @@
                                     <img src="images/home/recommend2.jpg" alt="" />
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i
-                                            class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -158,8 +149,7 @@
                                     <img src="images/home/recommend3.jpg" alt="" />
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i
-                                            class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +164,7 @@
             </a>
         </div>
     </div>
-
+    <!--/recommended_items-->
 </div>
 
 @endsection
