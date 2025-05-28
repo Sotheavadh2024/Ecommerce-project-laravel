@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <script src="/admin/js/app.js"></script>
+    <script src={{URL::asset("admin/js/app.js")}}></script>
 
     <script>
     document.addEventListener("DOMContentLoaded", function() {

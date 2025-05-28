@@ -14,6 +14,8 @@
 
     <title>AdminKit Demo - Bootstrap 5 Admin Template</title>
 
-    <link href="admin/css/app.css" rel="stylesheet">
+    <link href={{URL::asset('admin/css/app.css')}} rel=" stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>

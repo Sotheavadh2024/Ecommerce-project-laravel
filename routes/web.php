@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\MyHomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SlideshowController;
 
 // Public routes
 Route::get('/',[MyHomeController::class,'index'])->name('welcome');
@@ -22,5 +23,6 @@ Auth::routes();
 // Admin routes
 Route::get('/admins',[AdminController::class,'index'])->middleware('is_admin')->name('admin.dashboard');
 
+Route::get('/admins/slideshow',[SlideshowController::class,'listAll']);
 // Dashboard route - protected by auth middleware in the controller
 Route::get('/home', [HomeController::class, 'index'])->name('home');
